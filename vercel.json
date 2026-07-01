@@ -10,12 +10,18 @@
         { "key": "X-Content-Type-Options", "value": "nosniff" },
         { "key": "X-Frame-Options", "value": "DENY" },
         { "key": "Referrer-Policy", "value": "strict-origin-when-cross-origin" },
-        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" }
+        { "key": "Permissions-Policy", "value": "camera=(), microphone=(), geolocation=()" },
+        { "key": "Content-Security-Policy", "value": "default-src 'self'; script-src 'self' 'unsafe-inline'; style-src 'self' 'unsafe-inline'; img-src 'self' data:; font-src 'self'; frame-src 'self' https://www.google.com; connect-src 'self'; object-src 'none'" }
       ]
     }
   ],
   "redirects": [
-    { "source": "/patients", "destination": "/patient-info" },
-    { "source": "/patient-info/appointment-request", "destination": "/contact" }
+    { "source": "/services/cleanings-prevention", "destination": "/services/general-dentistry" },
+    { "source": "/services/dental-implants", "destination": "/services/restorative-dentistry" },
+    { "source": "/services/sedation-dentistry", "destination": "/services/general-dentistry" },
+    { "source": "/services/periodontal-disease", "destination": "/services/general-dentistry" },
+    { "source": "/patients", "destination": "/patients/new-patient" },
+    { "source": "/patient-info", "destination": "/patients/new-patient" },
+    { "source": "/patient-info/(.*)", "destination": "/patients/$1" }
   ]
 }
