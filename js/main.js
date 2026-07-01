@@ -17,16 +17,9 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (header) {
-    let ticking = false;
     window.addEventListener('scroll', () => {
-      if (!ticking) {
-        requestAnimationFrame(() => {
-          header.classList.toggle('scrolled', window.scrollY > 50);
-          ticking = false;
-        });
-        ticking = true;
-      }
-    });
+      header.classList.toggle('header-scrolled', window.scrollY > 50);
+    }, { passive: true });
   }
 
   document.querySelectorAll('.faq-question').forEach(btn => {
@@ -44,27 +37,22 @@ document.addEventListener('DOMContentLoaded', () => {
   const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
       if (entry.isIntersecting) {
-        entry.target.classList.add('visible');
+        entry.target.style.opacity = '1';
+        entry.target.style.transform = 'translateY(0)';
+        observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.1 });
+  }, { threshold: 0.1, rootMargin: '0px 0px -40px 0px' });
 
-  document.querySelectorAll('.card, .service-card, .team-card, .testimonial-card, .blog-card, .gallery-item, .gallery-page-item').forEach(el => {
+  document.querySelectorAll('.service-row-item, .feature, .testimonial-row-item, .team-card, .blog-card, .split, .gallery-strip-item, .gal-item').forEach(el => {
     el.style.opacity = '0';
-    el.style.transform = 'translateY(20px)';
-    el.style.transition = 'opacity 0.6s ease, transform 0.6s ease';
+    el.style.transform = 'translateY(16px)';
+    el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
     observer.observe(el);
   });
 
-  document.addEventListener('scroll', () => {
-    document.querySelectorAll('.visible').forEach(el => {
-      el.style.opacity = '1';
-      el.style.transform = 'translateY(0)';
-    });
-  }, { once: false });
-
   setTimeout(() => {
-    document.querySelectorAll('.card, .service-card, .team-card, .testimonial-card, .blog-card, .gallery-item, .gallery-page-item').forEach(el => {
+    document.querySelectorAll('[style*="opacity: 0"]').forEach(el => {
       if (el.getBoundingClientRect().top < window.innerHeight) {
         el.style.opacity = '1';
         el.style.transform = 'translateY(0)';

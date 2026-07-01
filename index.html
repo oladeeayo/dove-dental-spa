@@ -5,21 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Dentist in Westchester L.A. | Family Dentist | Cosmetic Dentist | Dove Dental Spa</title>
   <meta name="description" content="Dove Dental Spa in Westchester, L.A. offers family dentistry including teeth whitening, dental implants, crowns & fixing bridges. Call (310) 645-2886 today!">
-  <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://www.dovedentistspa.com/">
   <link rel="stylesheet" href="/css/style.css">
-
-  <meta property="og:type" content="website">
   <meta property="og:title" content="Dentist in Westchester L.A. | Family Dentist | Cosmetic Dentist | Dove Dental Spa">
   <meta property="og:description" content="Dove Dental Spa in Westchester, L.A. offers family dentistry including teeth whitening, dental implants, crowns & fixing bridges. Call (310) 645-2886 today!">
-  <meta property="og:url" content="https://www.dovedentistspa.com/">
-  <meta property="og:site_name" content="Dove Dental Spa">
-  <meta property="og:locale" content="en_US">
-
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Dentist in Westchester L.A. | Dove Dental Spa">
-  <meta name="twitter:description" content="Family dentistry in Westchester, L.A. including teeth whitening, dental implants, crowns & bridges.">
-
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -38,14 +28,10 @@
       "addressCountry": "US"
     },
     "openingHoursSpecification": [
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Tuesday", "opens": "08:00", "closes": "20:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Wednesday", "opens": "08:00", "closes": "20:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Thursday", "opens": "08:00", "closes": "20:00" },
-      { "@type": "OpeningHoursSpecification", "dayOfWeek": "Friday", "opens": "08:00", "closes": "14:00" },
+      { "@type": "OpeningHoursSpecification", "dayOfWeek": ["Tuesday","Wednesday","Thursday","Friday"], "opens": "08:00", "closes": "20:00" },
       { "@type": "OpeningHoursSpecification", "dayOfWeek": "Saturday", "opens": "08:00", "closes": "14:00" }
     ],
     "priceRange": "$$",
-    "image": "https://www.dovedentistspa.com/images/hero-smile.jpg",
     "sameAs": [
       "https://www.facebook.com/dovedentalspa/",
       "https://www.instagram.com/dovedentalspa_/",
@@ -56,322 +42,214 @@
   </script>
 </head>
 <body>
-  <header class="header">
+  <header class="header" id="header">
     <div class="container header-inner">
-      <a href="/" class="logo" aria-label="Dove Dental Spa Home"><span class="logo-icon" aria-hidden="true">&#9826;</span>Dove Dental Spa</a>
+      <a href="/" class="logo">Dove<em> Dental Spa</em></a>
       <nav class="nav" aria-label="Main navigation">
         <a href="/">Home</a>
         <a href="/about">About</a>
+        <a href="/meet-the-dentists">Our Dentist</a>
         <a href="/services">Services</a>
-        <a href="/smile-gallery">Gallery</a>
         <a href="/reviews">Reviews</a>
         <a href="/contact">Contact</a>
       </nav>
-      <div class="header-cta"><span class="phone">(310) 645-2886</span><a href="/contact" class="btn btn-primary">Book Appointment</a></div>
+      <div class="header-cta">
+        <a href="tel:+13106452886" class="phone">(310) 645-2886</a>
+        <a href="/contact" class="btn btn-primary btn-sm">Book Now</a>
+      </div>
       <button class="mobile-toggle" aria-label="Toggle menu" aria-expanded="false">&#9776;</button>
     </div>
   </header>
 
   <main>
-    <!-- Hero -->
-    <section class="hero" aria-label="Hero">
-      <div class="container hero-grid">
-        <div class="hero-content">
+    <section class="hero">
+      <div class="container hero-inner">
+        <div>
           <p class="hero-label">Westchester, L.A.'s Trusted Dentist Since 1989</p>
-          <h1>Peaceful Dentistry. Beautiful Smiles. Real Comfort.</h1>
-          <p>For over 30 years, Dr. Warren Gerosa and our dedicated team have provided Los Angeles families with compassionate, high-quality dental care in a relaxing spa environment.</p>
+          <h1>Peaceful Dentistry.<br>Beautiful Smiles.</h1>
+          <p>For over 30 years, Dr. Warren Gerosa and our team have provided Los Angeles families with compassionate, high-quality dental care in a relaxing spa environment.</p>
           <div class="hero-actions">
-            <a href="/contact" class="btn btn-primary">Book Appointment</a>
-            <a href="tel:+13106452886" class="btn btn-outline">Call (310) 645-2886</a>
+            <a href="/contact" class="btn btn-gold">Book an Appointment</a>
+            <a href="tel:+13106452886" class="btn btn-outline">(310) 645-2886</a>
           </div>
           <div class="hero-trust">
-            <span class="hero-trust-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>5-Star Reviews</span>
-            <span class="hero-trust-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Insurance Accepted</span>
-            <span class="hero-trust-item"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Extended Hours Available</span>
+            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/></svg>5-Star Reviews</span>
+            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>Insurance Accepted</span>
+            <span><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Extended Hours</span>
           </div>
         </div>
-        <div class="hero-image">
-          <div class="hero-image-placeholder" role="img" aria-label="Dove Dental Spa office and team">[Dove Dental Spa]</div>
+        <div class="hero-visual">
+          <div class="hero-visual-inner">[Clinic Photo]</div>
         </div>
       </div>
     </section>
 
-    <!-- Quick CTA Links -->
-    <section class="section section-cream" style="padding:40px 0">
+    <section class="photo-strip">
+      <div class="container photo-strip-inner">
+        <div class="photo-strip-item">[Team Photo]</div>
+        <div class="photo-strip-item">[Office Photo]</div>
+        <div class="photo-strip-item">[Patient Photo]</div>
+      </div>
+    </section>
+
+    <section class="section">
       <div class="container">
-        <div class="grid-3" style="text-align:center">
-          <a href="/meet-the-dentists" class="card" style="text-decoration:none">
-            <div style="width:100%;aspect-ratio:16/10;background:var(--cream);border-radius:var(--radius-sm);margin-bottom:16px;display:flex;align-items:center;justify-content:center;color:var(--text-light);font-size:0.85rem">[Team Photo]</div>
-            <h3 style="font-family:'Inter',sans-serif;font-size:1rem">Meet the Team</h3>
-          </a>
-          <a href="/patient-info" class="card" style="text-decoration:none">
-            <div style="width:100%;aspect-ratio:16/10;background:var(--cream);border-radius:var(--radius-sm);margin-bottom:16px;display:flex;align-items:center;justify-content:center;color:var(--text-light);font-size:0.85rem">[Office Info]</div>
-            <h3 style="font-family:'Inter',sans-serif;font-size:1rem">Office Information</h3>
-          </a>
-          <a href="/patient-forms" class="card" style="text-decoration:none">
-            <div style="width:100%;aspect-ratio:16/10;background:var(--cream);border-radius:var(--radius-sm);margin-bottom:16px;display:flex;align-items:center;justify-content:center;color:var(--text-light);font-size:0.85rem">[Patient Portal]</div>
-            <h3 style="font-family:'Inter',sans-serif;font-size:1rem">Patient Portal</h3>
-          </a>
+        <div class="split">
+          <div>
+            <span class="section-label">Welcome</span>
+            <h2>Your Westchester Family Dentist</h2>
+            <p>At Dove Dental Spa, our founder Dr. Warren Gerosa utilizes his skill and passion to serve Los Angeles and the surrounding communities of Culver City and Westchester since 1989. Backed by decades of experience and a dedicated team, we are known for providing individuals and families comprehensive dentistry they can trust with the compassionate approach they deserve.</p>
+            <p>Whether you are visiting us for a routine cleaning or need full-smile rejuvenation with dental implants, meeting all your unique needs is what we do. We offer convenient evening and Saturday hours so you don't have to choose between your responsibilities and getting the dental care you deserve.</p>
+            <p><a href="/about" style="color:var(--green);font-weight:500">Learn more about our practice &rarr;</a></p>
+          </div>
+          <div class="split-image">[Practice Image]</div>
         </div>
       </div>
     </section>
 
-    <!-- Welcome Content -->
-    <section class="section" aria-labelledby="welcome-heading">
-      <div class="container">
-        <div class="content-page" style="padding:0;border:none">
-          <h1 id="welcome-heading" style="text-align:center;margin-bottom:32px">Welcome to Your Westchester, L.A. Family Dentist!</h1>
-          <div style="display:flex;gap:24px;flex-wrap:wrap;margin-bottom:24px">
-            <div style="flex:0 0 auto;width:100%;max-width:400px;background:var(--cream);border-radius:var(--radius-sm);aspect-ratio:4/3;display:flex;align-items:center;justify-content:center;color:var(--text-light);font-size:0.85rem;float:right;margin:0 0 16px 24px">[Happy Family]</div>
-            <div style="flex:1;min-width:280px">
-              <p>At Dove Dental Spa, our founder, <a href="/meet-the-dentists" style="color:var(--accent)">Dr. Warren Gerosa</a>, utilizes his skill and passion to serve Los Angeles and the surrounding communities of Culver City, CA and neighborhoods like Westchester since 1989. Backed by decades of experience and a dedicated team, we are known for providing individuals and families comprehensive dentistry they can trust with the compassionate approach and flexibility they deserve.</p>
-              <p>Whether you are visiting us for a <a href="/services/cleanings-prevention" style="color:var(--accent)">routine cleaning</a> or need full-smile rejuvenation with <a href="/services/dental-implants" style="color:var(--accent)">dental implants</a>, meeting all your unique needs is what we do.</p>
-              <p>We know how demanding your schedule can be. That is why we offer <strong>convenient office hours</strong>, like staying open until 8 PM on most weekdays and office hours on Saturdays, so you do not have to choose between your responsibilities and getting the dental care you deserve. We also provide <a href="/services/emergency-dentistry" style="color:var(--accent)">emergency dental appointments</a> to help prioritize treatment when you need it most.</p>
-              <p>No matter your current oral health, Dr. Warren Gerosa and his dedicated Dove Dental Spa team know what it takes to provide you and your loved ones with convenient and compassionate care.</p>
-            </div>
-          </div>
-          <div style="text-align:center;margin:32px 0;clear:both">
-            <a href="tel:+13106452886" class="btn btn-primary" style="min-width:265px">&#9742; CALL US: (310) 645-2886</a>
-            <a href="/contact" class="btn btn-dark" style="min-width:265px">&#128197; REQUEST APPOINTMENT</a>
-          </div>
-
-          <h2>Helping You Love Dental Care through Patient-Focused Dentistry</h2>
-          <div style="display:flex;gap:24px;flex-wrap:wrap;margin-bottom:24px;align-items:flex-start">
-            <div style="flex:1;min-width:280px">
-              <p>In addition to possessing the skill, technologies, and treatments to serve your smile effectively, Dr. Gerosa believes that exceptional dentistry includes a foundation of trust through kindness during a detailed consultation. When visiting us for care, our dentist takes the time to get to know you and your smile personally, rather than diving right into treatment.</p>
-              <p>Once our Westchester and Culver City, CA, area dentist has answered your questions, addressed your concerns, and helped ease your fears, he will work closely with you to craft a treatment plan that is all your own. Treatment recommendations are always based on your current oral health, and designed to protect and maintain your healthy teeth and gums. We do not over-diagnose or push unnecessary procedures.</p>
-              <p>Some of our available services include:</p>
-            </div>
-            <div style="flex:0 0 auto;width:100%;max-width:300px;background:var(--cream);border-radius:var(--radius-sm);aspect-ratio:1;display:flex;align-items:center;justify-content:center;color:var(--text-light);font-size:0.85rem">[Patient Photo]</div>
-          </div>
-          <div class="grid-2" style="margin-bottom:24px">
-            <ul>
-              <li>Dental Cleanings & Examinations</li>
-              <li>Dental Implants & Restorations</li>
-              <li>Crowns, Bridges & Dentures</li>
-              <li>Dental Emergencies</li>
-              <li>Sedation Dentistry</li>
-            </ul>
-            <ul>
-              <li>Cosmetic Dentistry</li>
-              <li>Invisalign Clear Aligners</li>
-              <li>Root Canal Therapy</li>
-              <li>Wisdom Teeth Extractions</li>
-              <li>Gum Disease Treatment</li>
-            </ul>
-          </div>
-          <p>Our general dentistry offerings include digital x-rays and thorough yet gentle examinations, educating patients about our findings along the way. We also offer tooth-colored composite fillings for a more uniform smile, and beautiful porcelain materials for our crown, bridge, and denture restorations. For particularly anxious patients, we provide nitrous and oral conscious sedation options to help further maximize your comfort.</p>
-
-          <h2>Helping Patients Afford the Care They Need</h2>
-          <p>We believe that every patient should have access to quality, personalized dental care. When you come to visit us, we work with you to help you make dental care affordable. We are experts with insurance, and can help you maximize your benefits so that you can receive the dental care you deserve. Be sure to talk to our friendly staff for more information on how we can help!</p>
-
-          <h2>Quality Dentistry Is Waiting for You!</h2>
-          <p>We welcome individuals and families in Westchester, Culver City, CA, and across Los Angeles to visit our inviting practice for convenient, comprehensive dental care. Our office is located on the corner of Sepulveda and Manchester Ave., close to the 1 and the 405. Call today to get the care you need, customized to your schedule!</p>
-
-          <div style="text-align:center;margin:32px 0">
-            <a href="tel:+13106452886" class="btn btn-primary" style="min-width:265px">&#9742; CALL US: (310) 645-2886</a>
-            <a href="/contact" class="btn btn-dark" style="min-width:265px">&#128197; REQUEST APPOINTMENT</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section class="section section-cream" aria-labelledby="why-heading">
-      <div class="container">
-        <div class="text-center">
-          <span class="section-label">Why Choose Us</span>
-          <h2 class="section-title" id="why-heading">The Dove Dental Spa Difference</h2>
-          <p class="section-subtitle">For over 30 years, we have been helping Los Angeles families smile with confidence.</p>
-        </div>
-        <div class="grid-3">
-          <article class="card">
-            <div class="card-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"/></svg></div>
-            <h3>Spa-Like Atmosphere</h3>
-            <p>Cold cucumber water, soothing waterfalls, relaxing massage chairs, and a warm staff that makes you forget you are at the dentist.</p>
-          </article>
-          <article class="card">
-            <div class="card-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
-            <h3>Compassionate Care</h3>
-            <p>Dr. Gerosa and our team take time to listen, answer questions, and ease your fears. We never push unnecessary procedures.</p>
-          </article>
-          <article class="card">
-            <div class="card-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
-            <h3>Extended Hours</h3>
-            <p>Open Tuesday-Friday until 8 PM and Saturday until 2 PM. We work around your busy schedule.</p>
-          </article>
-          <article class="card">
-            <div class="card-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
-            <h3>30+ Years Experience</h3>
-            <p>Dr. Warren Gerosa, a USC dental graduate, brings decades of experience and a gentle, kind approach to every patient.</p>
-          </article>
-          <article class="card">
-            <div class="card-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
-            <h3>Modern Technology</h3>
-            <p>Digital X-rays, intraoral cameras, and advanced materials for precise diagnosis and beautiful, long-lasting results.</p>
-          </article>
-          <article class="card">
-            <div class="card-icon"><svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="2" y="6" width="20" height="12" rx="2"/><path d="M12 12h.01"/><path d="M17 12h.01"/><path d="M7 12h.01"/></svg></div>
-            <h3>Flexible Financing</h3>
-            <p>We accept most insurance plans, offer CareCredit, and work with you to make dental care affordable.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- Services Overview -->
-    <section class="section" aria-labelledby="services-heading">
+    <section class="section section-warm">
       <div class="container">
         <div class="text-center">
           <span class="section-label">Our Services</span>
-          <h2 class="section-title" id="services-heading">Comprehensive Dental Care for Your Whole Family</h2>
-          <p class="section-subtitle">From routine cleanings to complete smile transformations, we offer every service you need.</p>
+          <h2 class="section-title">Comprehensive Care for Your Whole Family</h2>
+          <p class="section-subtitle">From routine cleanings to complete smile transformations, we offer every service you need with a gentle touch and stunning results.</p>
         </div>
-        <div class="grid-3">
-          <article class="service-card">
-            <div class="service-card-img">[Cleanings & Prevention]</div>
-            <div class="service-card-body">
-              <h3>Cleanings & Prevention</h3>
-              <p>Comprehensive exams, professional cleanings, digital X-rays, fluoride treatment, and sealants to keep your smile healthy.</p>
-              <a href="/services/cleanings-prevention" class="card-cta">Learn More <span aria-hidden="true">&rarr;</span></a>
-            </div>
-          </article>
-          <article class="service-card">
-            <div class="service-card-img">[Cosmetic Dentistry]</div>
-            <div class="service-card-body">
-              <h3>Cosmetic Dentistry</h3>
-              <p>Transform your smile with Invisalign, Zoom! whitening, porcelain veneers, bonding, and complete smile makeovers.</p>
-              <a href="/services/cosmetic-dentistry" class="card-cta">Learn More <span aria-hidden="true">&rarr;</span></a>
-            </div>
-          </article>
-          <article class="service-card">
-            <div class="service-card-img">[Restorations]</div>
-            <div class="service-card-body">
-              <h3>Restorative Dentistry</h3>
-              <p>Composite fillings, crowns, bridges, dentures, root canal therapy, and full-mouth reconstruction to restore function.</p>
-              <a href="/services/restorative-dentistry" class="card-cta">Learn More <span aria-hidden="true">&rarr;</span></a>
-            </div>
-          </article>
-          <article class="service-card">
-            <div class="service-card-img">[Dental Implants]</div>
-            <div class="service-card-body">
-              <h3>Dental Implants</h3>
-              <p>Permanent tooth replacement that looks, feels, and functions like natural teeth. Restore your smile and confidence.</p>
-              <a href="/services/dental-implants" class="card-cta">Learn More <span aria-hidden="true">&rarr;</span></a>
-            </div>
-          </article>
-          <article class="service-card">
-            <div class="service-card-img">[Emergency Dentistry]</div>
-            <div class="service-card-body">
-              <h3>Emergency Dentistry</h3>
-              <p>Same-day emergency care for tooth pain, broken teeth, swelling, and accidents. We prioritize your comfort.</p>
-              <a href="/services/emergency-dentistry" class="card-cta">Learn More <span aria-hidden="true">&rarr;</span></a>
-            </div>
-          </article>
-          <article class="service-card">
-            <div class="service-card-img">[Sedation Dentistry]</div>
-            <div class="service-card-body">
-              <h3>Sedation Dentistry</h3>
-              <p>Nitrous oxide and oral conscious sedation options for anxious patients. Relax through your entire procedure.</p>
-              <a href="/services/sedation-dentistry" class="card-cta">Learn More <span aria-hidden="true">&rarr;</span></a>
-            </div>
-          </article>
+      </div>
+      <div class="service-row">
+        <div class="service-row-item">
+          <div class="service-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 2l-2 5h4l-2 5h4l-6 8 2-5H8l2-5H6l6-8z"/></svg></div>
+          <h3>Cleanings & Prevention</h3>
+          <p>Comprehensive exams, professional cleanings, digital X-rays, fluoride treatment, and sealants to keep your smile healthy.</p>
+          <a href="/services/cleanings-prevention" class="service-row-link">Learn more &rarr;</a>
+        </div>
+        <div class="service-row-item">
+          <div class="service-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="8" r="4"/><path d="M20 21a8 8 0 1 0-16 0"/></svg></div>
+          <h3>Cosmetic Dentistry</h3>
+          <p>Transform your smile with Invisalign, Zoom! whitening, porcelain veneers, and complete smile makeovers.</p>
+          <a href="/services/cosmetic-dentistry" class="service-row-link">Learn more &rarr;</a>
+        </div>
+        <div class="service-row-item">
+          <div class="service-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M19 14l-7 7m0 0l-7-7m7 7V3"/></svg></div>
+          <h3>Restorations & Implants</h3>
+          <p>Composite fillings, crowns, bridges, dentures, root canals, and permanent dental implants that look and feel natural.</p>
+          <a href="/services/restorative-dentistry" class="service-row-link">Learn more &rarr;</a>
+        </div>
+        <div class="service-row-item">
+          <div class="service-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg></div>
+          <h3>Dental Emergencies</h3>
+          <p>Same-day care for tooth pain, broken teeth, swelling, and accidents. We prioritize your comfort and care.</p>
+          <a href="/services/emergency-dentistry" class="service-row-link">Learn more &rarr;</a>
+        </div>
+        <div class="service-row-item">
+          <div class="service-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg></div>
+          <h3>Periodontal Care</h3>
+          <p>Diagnosis, treatment, and maintenance of gum disease to protect your oral health and prevent tooth loss.</p>
+          <a href="/services/periodontal-disease" class="service-row-link">Learn more &rarr;</a>
+        </div>
+        <div class="service-row-item">
+          <div class="service-row-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg></div>
+          <h3>Sedation Dentistry</h3>
+          <p>Nitrous oxide and oral conscious sedation for anxious patients. Relax through your entire procedure comfortably.</p>
+          <a href="/services/sedation-dentistry" class="service-row-link">Learn more &rarr;</a>
         </div>
       </div>
     </section>
 
-    <!-- Meet the Doctor -->
-    <section class="section section-cream" aria-labelledby="doctor-heading">
+    <section class="section">
       <div class="container">
-        <div class="grid-2" style="align-items:center">
-          <div style="background:var(--cream);border-radius:var(--radius);aspect-ratio:1;display:flex;align-items:center;justify-content:center;color:var(--text-light);font-size:0.85rem">[Dr. Gerosa Photo]</div>
-          <div>
+        <div class="split">
+          <div class="split-image">[Dr. Gerosa Photo]</div>
+          <div class="split-content">
             <span class="section-label">Meet Your Dentist</span>
-            <h2 class="section-title" id="doctor-heading">Dr. Warren Gerosa, DDS</h2>
-            <p class="role" style="color:var(--accent);font-weight:600;font-size:1.1rem">USC Dental Graduate | 30+ Years Experience</p>
-            <p>Dr. Gerosa is a USC dental graduate with more than 30 years of experience in the LA dental world. Dr. Warren Gerosa is, above all else, a nice guy. While he is sure to perfect your smile and leave you feeling more than satisfied with your dental care, Dr. Gerosa's kind, gentle demeanor are what patients speak to most often.</p>
-            <p>Maybe that's why some of Dr. Gerosa's patients remain his closest friends. To see for yourself what a great dentist and person Dr. Gerosa is, make an appointment at Dove Dental Spa today.</p>
-            <a href="/meet-the-dentists" class="btn btn-dark mt-2">Learn More About Dr. Gerosa</a>
+            <h2>Dr. Warren Gerosa, DDS</h2>
+            <p style="color:var(--gold);font-weight:500;margin-bottom:16px">USC Dental Graduate | 30+ Years of Experience</p>
+            <p>Dr. Gerosa is, above all else, a nice guy. While he is sure to perfect your smile and leave you feeling more than satisfied with your dental care, his kind, gentle demeanor are what patients speak to most often. Maybe that is why some of his patients remain his closest friends.</p>
+            <p><a href="/meet-the-dentists" style="color:var(--green);font-weight:500">Learn more about Dr. Gerosa &rarr;</a></p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Testimonials -->
-    <section class="section" aria-labelledby="reviews-heading">
+    <section class="section section-warm">
       <div class="container">
         <div class="text-center">
-          <span class="section-label">Patient Reviews</span>
-          <h2 class="section-title" id="reviews-heading">What Our Patients Say</h2>
+          <span class="section-label">Why Patients Choose Us</span>
+          <h2 class="section-title">The Dove Dental Spa Difference</h2>
         </div>
-        <div class="grid-3">
-          <article class="testimonial-card">
-            <div class="testimonial-stars">★★★★★</div>
-            <blockquote>"So happy with this dentist! Such a pleasure to have a friendly dentist and staff. Office cleanliness: 5 stars. Staff friendliness: 5 stars. Chairside manner: 5 stars."</blockquote>
-            <div class="testimonial-author">
-              <div class="testimonial-avatar">AS</div>
-              <div><div class="testimonial-name">Ava S.</div><div class="testimonial-source">Patient Review</div></div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <div class="testimonial-stars">★★★★★</div>
-            <blockquote>"Excellent Care. Would Recommend To Anyone. Office cleanliness: 5 stars. Staff friendliness: 5 stars. Short wait time: 5 stars. Chairside manner: 5 stars."</blockquote>
-            <div class="testimonial-author">
-              <div class="testimonial-avatar">DH</div>
-              <div><div class="testimonial-name">Deveta H.</div><div class="testimonial-source">Patient Review</div></div>
-            </div>
-          </article>
-          <article class="testimonial-card">
-            <div class="testimonial-stars">★★★★★</div>
-            <blockquote>"Kind, efficient staff! I had my teeth cleaned. Dr. Gerosa's staff is very friendly and efficient. My family has been going there for dental services for years!"</blockquote>
-            <div class="testimonial-author">
-              <div class="testimonial-avatar">LL</div>
-              <div><div class="testimonial-name">Laura L.</div><div class="testimonial-source">Patient Review</div></div>
-            </div>
-          </article>
-        </div>
-        <div class="text-center mt-3">
-          <a href="/reviews" class="btn btn-dark">Read All Reviews</a>
+        <div class="feature-grid">
+          <div class="feature"><h3>Spa-Like Atmosphere</h3><p>Cold cucumber water, soothing waterfalls, massage chairs, and a warm staff that makes you forget you're at the dentist.</p></div>
+          <div class="feature"><h3>Compassionate Care</h3><p>We take time to listen, answer your questions, and ease your fears. We never push unnecessary procedures.</p></div>
+          <div class="feature"><h3>Convenient Hours</h3><p>Open Tuesday through Friday until 8 PM and Saturdays until 2 PM. Evening and weekend appointments available.</p></div>
+          <div class="feature"><h3>30+ Years of Trust</h3><p>Dr. Gerosa has been serving Los Angeles families since 1989 with gentle, high-quality dental care.</p></div>
+          <div class="feature"><h3>Advanced Technology</h3><p>Digital X-rays, intraoral cameras, and modern materials for precise diagnosis and beautiful, lasting results.</p></div>
+          <div class="feature"><h3>Flexible Financing</h3><p>We accept most insurance plans, offer CareCredit, and work with you to make dental care affordable.</p></div>
         </div>
       </div>
     </section>
 
-    <!-- FAQ -->
-    <section class="section section-cream" aria-labelledby="faq-heading">
+    <section class="section">
+      <div class="container">
+        <div class="text-center">
+          <span class="section-label">What Our Patients Say</span>
+          <h2 class="section-title">Real Reviews from Real Patients</h2>
+        </div>
+      </div>
+      <div class="testimonial-row">
+        <div class="testimonial-row-item">
+          <div class="stars">★★★★★</div>
+          <blockquote>"So happy with this dentist! Such a pleasure to have a friendly dentist and staff. Office cleanliness: 5 stars. Staff friendliness: 5 stars. Chairside manner: 5 stars."</blockquote>
+          <footer>Ava S.</footer>
+        </div>
+        <div class="testimonial-row-item">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Excellent Care. Would Recommend To Anyone. Office cleanliness: 5 stars. Staff friendliness: 5 stars. Short wait time: 5 stars. Chairside manner: 5 stars."</blockquote>
+          <footer>Deveta H.</footer>
+        </div>
+        <div class="testimonial-row-item">
+          <div class="stars">★★★★★</div>
+          <blockquote>"Kind, efficient staff! Dr. Gerosa's staff is very friendly and efficient. My family has been going there for dental services for years!"</blockquote>
+          <footer>Laura L.</footer>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top:0;padding:32px 24px 0">
+        <a href="/reviews" class="btn btn-outline-dark">Read More Reviews</a>
+      </div>
+    </section>
+
+    <section class="section section-warm">
       <div class="container">
         <div class="text-center">
           <span class="section-label">FAQs</span>
-          <h2 class="section-title" id="faq-heading">Common Questions About Our Dental Services</h2>
+          <h2 class="section-title">Common Questions</h2>
         </div>
         <div class="faq-list">
           <div class="faq-item">
-            <button class="faq-question" aria-expanded="false"><span>What insurance plans do you accept?</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
-            <div class="faq-answer"><div><p>We accept most major dental insurance plans. Our friendly staff will verify your benefits before your visit and help you maximize your coverage. Contact us to check your plan.</p></div></div>
+            <button class="faq-question" aria-expanded="false"><span>What insurance plans do you accept?</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer"><p>We accept most major dental insurance plans. Our friendly staff will verify your benefits before your visit and help you maximize your coverage. Contact us to check your plan.</p></div>
           </div>
           <div class="faq-item">
-            <button class="faq-question" aria-expanded="false"><span>Do you offer sedation for anxious patients?</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
-            <div class="faq-answer"><div><p>Yes. We offer nitrous oxide (laughing gas) and oral conscious sedation to help patients relax during their procedures. Many of our patients who were once fearful now look forward to their visits.</p></div></div>
+            <button class="faq-question" aria-expanded="false"><span>Do you offer sedation for anxious patients?</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer"><p>Yes. We offer nitrous oxide (laughing gas) and oral conscious sedation to help patients relax during their procedures. Many of our patients who were once fearful now look forward to their visits.</p></div>
           </div>
           <div class="faq-item">
-            <button class="faq-question" aria-expanded="false"><span>What are your office hours?</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
-            <div class="faq-answer"><div><p>We are open Tuesday through Friday from 8:00 AM to 8:00 PM and Saturday from 8:00 AM to 2:00 PM. We offer extended hours to accommodate busy schedules.</p></div></div>
+            <button class="faq-question" aria-expanded="false"><span>What are your office hours?</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer"><p>We are open Tuesday through Friday from 8:00 AM to 8:00 PM and Saturday from 8:00 AM to 2:00 PM. We offer extended hours to accommodate busy schedules.</p></div>
           </div>
           <div class="faq-item">
-            <button class="faq-question" aria-expanded="false"><span>Do you handle dental emergencies?</span><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
-            <div class="faq-answer"><div><p>Yes. We provide emergency dental care and will do our best to see you the same day. Call us immediately if you are in pain or have a dental emergency.</p></div></div>
+            <button class="faq-question" aria-expanded="false"><span>Do you handle dental emergencies?</span><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"/></svg></button>
+            <div class="faq-answer"><p>Yes. We provide emergency dental care and will do our best to see you the same day. Call us immediately if you are in pain or have a dental emergency.</p></div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Contact CTA -->
-    <section class="cta-section" aria-labelledby="cta-heading">
+    <section class="cta-banner">
       <div class="container">
-        <h2 id="cta-heading">Quality Dentistry Is Waiting for You!</h2>
-        <p>We welcome individuals and families in Westchester, Culver City, and across Los Angeles. Call today to get the care you need, customized to your schedule.</p>
+        <h2>Ready to Experience Peaceful Dentistry?</h2>
+        <p>We welcome individuals and families in Westchester, Culver City, and across Los Angeles. Call today to schedule your visit.</p>
         <div class="cta-actions">
-          <a href="/contact" class="btn btn-primary">Book Your Appointment</a>
-          <a href="tel:+13106452886" class="btn btn-outline">Call (310) 645-2886</a>
+          <a href="/contact" class="btn btn-gold">Request an Appointment</a>
+          <a href="tel:+13106452886" class="btn btn-outline">(310) 645-2886</a>
         </div>
       </div>
     </section>
@@ -381,16 +259,16 @@
     <div class="container">
       <div class="footer-grid">
         <div class="footer-brand">
-          <div class="logo"><span class="logo-icon" aria-hidden="true">&#9826;</span>Dove Dental Spa</div>
+          <div class="logo">Dove<em> Dental Spa</em></div>
           <p>Peaceful dentistry in a spa environment. Serving Westchester, Culver City, and Los Angeles since 1989.</p>
         </div>
         <div>
           <h4>Quick Links</h4>
           <a href="/">Home</a>
           <a href="/about">About Us</a>
-          <a href="/meet-the-dentists">Meet the Dentist</a>
+          <a href="/meet-the-dentists">Our Dentist</a>
           <a href="/services">Services</a>
-          <a href="/smile-gallery">Smile Gallery</a>
+          <a href="/reviews">Reviews</a>
           <a href="/contact">Contact</a>
         </div>
         <div>
@@ -405,27 +283,27 @@
         <div>
           <h4>Contact</h4>
           <ul class="footer-contact">
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>1200 Rosecrans Ave, Suite 107, Manhattan Beach, CA 90266</li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+13106452886">(310) 645-2886</a></li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:dovedentalspa@gmail.com">dovedentalspa@gmail.com</a></li>
-            <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Tue-Fri: 8AM-8PM &middot; Sat: 8AM-2PM</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>1200 Rosecrans Ave, Suite 107, Manhattan Beach, CA 90266</li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg><a href="tel:+13106452886">(310) 645-2886</a></li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg><a href="mailto:dovedentalspa@gmail.com">dovedentalspa@gmail.com</a></li>
+            <li><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>Tue-Fri: 8AM-8PM &middot; Sat: 8AM-2PM</li>
           </ul>
         </div>
       </div>
       <div class="footer-bottom">
         <span>&copy; 2024 Dr. Warren Gerosa, DDS. All rights reserved.</span>
         <div class="footer-social">
-          <a href="https://www.facebook.com/dovedentalspa/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
-          <a href="https://www.instagram.com/dovedentalspa_/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
-          <a href="https://twitter.com/dovedentalspa" target="_blank" rel="noopener" aria-label="Twitter"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M22 4.01c-1 .49-1.98.69-3 .99-1.21-.49-2.69-.99-4-.99-3.31 0-6 2.69-6 6 0 .5.08 1 .19 1.49-5-.25-8.4-2.5-11-5.99 0 0-.5 1-.5 2.49 0 1.7 1 3.2 2.5 3.8-.9-.1-1.7-.3-2.5-.5 0 2.5 2 4.5 4.5 4.5-.5.2-1 .3-1.5.3-.1 0-.2 0-.3-.1.5 1.5 2 2.5 3.5 2.5-1.5 1-3.5 1.5-5.5 1.5H1c2 1.5 4.5 2 7 2 8.5 0 13-7 13-13v-.6c1-.7 2-1.7 3-2.8z"/></svg></a>
-          <a href="https://www.yelp.com/biz/dove-dental-spa-los-angeles" target="_blank" rel="noopener" aria-label="Yelp"><svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm3.5 14.5c-.3.3-.7.5-1.1.5-.4 0-.8-.1-1.1-.4-.6-.5-.9-1.2-.9-2v-1.7h4v1.7c0 .8-.3 1.5-.9 1.9z"/></svg></a>
+          <a href="https://www.facebook.com/dovedentalspa/" target="_blank" rel="noopener" aria-label="Facebook"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg></a>
+          <a href="https://www.instagram.com/dovedentalspa_/" target="_blank" rel="noopener" aria-label="Instagram"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg></a>
+          <a href="https://twitter.com/dovedentalspa" target="_blank" rel="noopener" aria-label="Twitter"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M22 4.01c-1 .49-1.98.69-3 .99-1.21-.49-2.69-.99-4-.99-3.31 0-6 2.69-6 6 0 .5.08 1 .19 1.49-5-.25-8.4-2.5-11-5.99 0 0-.5 1-.5 2.49 0 1.7 1 3.2 2.5 3.8-.9-.1-1.7-.3-2.5-.5 0 2.5 2 4.5 4.5 4.5-.5.2-1 .3-1.5.3-.1 0-.2 0-.3-.1.5 1.5 2 2.5 3.5 2.5-1.5 1-3.5 1.5-5.5 1.5H1c2 1.5 4.5 2 7 2 8.5 0 13-7 13-13v-.6c1-.7 2-1.7 3-2.8z"/></svg></a>
+          <a href="https://www.yelp.com/biz/dove-dental-spa-los-angeles" target="_blank" rel="noopener" aria-label="Yelp"><svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm3.5 14.5c-.3.3-.7.5-1.1.5-.4 0-.8-.1-1.1-.4-.6-.5-.9-1.2-.9-2v-1.7h4v1.7c0 .8-.3 1.5-.9 1.9z"/></svg></a>
         </div>
       </div>
     </div>
   </footer>
 
-  <div class="mobile-cta">
-    <a href="tel:+13106452886" class="btn btn-dark">&#9742; Call Now</a>
+  <div class="mobile-bar">
+    <a href="tel:+13106452886" class="btn btn-outline-dark">&#9742; Call Now</a>
     <a href="/contact" class="btn btn-primary">Book Appointment</a>
   </div>
 
