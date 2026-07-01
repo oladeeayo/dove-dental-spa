@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url><loc>https://www.dovedentistspa.com/</loc><priority>1.0</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/about</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/services/cosmetic-dentistry</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/services/general-dentistry</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/services/restorative-dentistry</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/services/emergency-dentistry</loc><priority>0.9</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/patients/new-patient</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/patients/insurance-financing</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/patients/faqs</loc><priority>0.8</priority><changefreq>weekly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/smile-gallery</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/reviews</loc><priority>0.7</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/contact</loc><priority>0.8</priority><changefreq>monthly</changefreq></url>
+  <url><loc>https://www.dovedentistspa.com/blog</loc><priority>0.6</priority><changefreq>weekly</changefreq></url>
+</urlset>
