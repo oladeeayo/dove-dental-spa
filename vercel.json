@@ -15,7 +15,7 @@
     }
   ],
   "redirects": [
-    { "source": "/services", "destination": "/services/cosmetic-dentistry" },
-    { "source": "/patients", "destination": "/patients/new-patient" }
+    { "source": "/patients", "destination": "/patient-info" },
+    { "source": "/patient-info/appointment-request", "destination": "/contact" }
   ]
 }
